@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@theme {
+  /* surfaces */
+  --color-bg: #07090d;
+  --color-window: #0d1117;
+  --color-bar: #161b22;
+  --color-chip: #151a22;
+  --color-border: #262d38;
+
+  /* text */
+  --color-fg: #e6edf3;
+  --color-muted: #7d8590;
+  --color-dim: #4a525e;
+
+  /* accents */
+  --color-green: #3fb950;
+  --color-cyan: #39c5cf;
+  --color-purple: #a371f7;
+  --color-amber: #e3b341;
+  --color-blue: #58a6ff;
+  --color-red: #f85149;
+  --color-line: #2a6b3b;
+
+  /* macOS traffic lights */
+  --color-traffic-red: #ff5f57;
+  --color-traffic-yellow: #febc2e;
+  --color-traffic-green: #28c840;
+
+  /* contribution graph */
+  --color-contrib-0: #161b22;
+  --color-contrib-1: #0e4429;
+  --color-contrib-2: #006d32;
+  --color-contrib-3: #26a641;
+  --color-contrib-4: #39d353;
+
+  /* fonts */
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-jetBrains-mono);
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-fg);
+}
